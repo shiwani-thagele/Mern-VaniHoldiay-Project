@@ -29,7 +29,7 @@ const  mutation  =  useMutation(apiClient.register,{
     },
     onError: (error:Error) =>{
         showToast({message:error.message,type:"ERROR"})
-        
+
     }
 })
 
